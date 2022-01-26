@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgreen;
+    margin: 0%;
+}
+header{
+    background-image: linear-gradient(to bottom, lightgreen, green, darkgreen);
+    color: white;
+    height: 250px;
+    padding: 10px;
+}
+
+main{
+    width: 800px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+h1{
+    font-family: "idroid";
+    color: green;
+}
+
+h2{
+    font-family: "idroid";
+    color: green;
+    background-image:linear-gradient(to right, lightgreen, white);
+    text-indent: 10px;
+}
+
+p{
+    text-indent: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+div{
+    display: inline-block;
+    padding: 10px;
+}
+
+a{
+    color:green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+aside{
+    text-align: center;
+    background-color: darkgreen;
+    padding: 20px 30px;
+}
+
+article{
+    background-color: rgba(0, 128, 0, 0.247);
+    border-radius: 10px;
+    content: 5px;
+}
+
+ul{
+    display: inline-block;
+}
+
+li{
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    background-color: darkgreen;
+    font-weight: 100;
+    color: white;
+    font-style: italic;
+}
+
+#h1principal{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 3em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pprincipal{
+    text-align: center;
+    font-size: 20px;
+}
+
+span#destaque{
+    font-weight: 900;
+    color: green;
+}
+
+#imgcenter{
+    text-align: center;
+    display: block;
+}
+
+#particle{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+
+#ularticle{
+    padding-right: 150px;
+}
+
+#divmenu{
+    padding-top: 30px;
+}
