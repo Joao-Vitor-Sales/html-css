@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#fora{
+    height: 96vh;
+    background-color: #BD7DF5;
+    position: relative;
+}
+
+#dentro{
+    height: 200px;
+    width: 300px;
+    background-color: #F5FF40;
+    
+    transform: translate(-50%, -50%);
+
+    position: absolute;
+    left:50%;
+    top: 50%;
+}

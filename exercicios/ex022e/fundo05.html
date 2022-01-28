@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo 5</title>
+    <style>
+        #fora{
+            width: 99.3%;
+            height: 380px;
+            background-color: lightgray;
+            border: 5px solid black;
+
+            position:relative
+        }
+
+        #dentro{
+            width: 350px;
+            height: 80px;
+            background-color: gray;
+            border: 1px solid black;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-190px, -40px);
+        }
+
+        P{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.9em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="fora">
+        <div id="dentro">
+            <p>TEXTO CENTRALIZADO</p>
+        </div>
+    </div>
+</body>
+</html>
