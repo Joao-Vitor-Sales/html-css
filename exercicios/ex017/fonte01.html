@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente é igual a 1em
+            */
+            font-size: 1em;
+            font-weight: 100;
+            /*(100 ... 200) - ligther, normal, bold, bolder*/
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+        h1{
+            /* shorthan font
+            A ordem é: font-style > font weigth > font family */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'Work Sans'
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quaerat ratione iure eum, quam omnis eveniet atque dolor ex deserunt quae, doloremque explicabo veniam qui, expedita ut magnam? Dignissimos, repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis maiores eligendi placeat tempora. Ea minima ducimus cum! Aliquam doloremque nam cumque iste animi rem consequuntur optio ullam nisi, atque mollitia!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque eaque inventore doloribus hic sed, commodi quidem temporibus? Quis repellat, animi distinctio consequatur voluptatum harum ab non iste laboriosam porro sunt.</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, aperiam, magnam esse sed a quam odit debitis animi fuga eaque, deserunt vitae? Fuga accusamus ipsum ad corrupti corporis nam illum!</p>
+</body>
+</html>
